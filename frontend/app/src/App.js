@@ -1,7 +1,13 @@
 import './App.css';
-
+import NavigationBar from './components/navigation-bar/NavigationBar';
+import Slider from './components/slider/Slider';
 function App() {
-  return <div className="text-3xl">Hello</div>;
+  return (
+    <div>
+      <NavigationBar />
+      <Slider />
+    </div>
+  );
 }
 
 export default App;
