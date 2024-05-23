@@ -34,7 +34,7 @@ const Slider = () => {
   useEffect(() => {
     setTimeout(() => {
       index === MyCollection.length - 1 ? setIndex(0) : setIndex(index + 1);
-    }, 2000);
+    }, 10000);
   });
 
   return (
